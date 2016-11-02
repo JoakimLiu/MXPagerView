@@ -206,6 +206,13 @@ typedef NS_ENUM(NSInteger, MXPagerViewTransitionStyle) {
  */
 - (nullable __kindof UIView *)dequeueReusablePageWithIdentifier:(NSString *)identifier;
 
+/**
+ setup first load index
+ 
+ @param index index description
+ */
+- (void)setupFirstLoadIndex:(NSInteger)index;
+
 @end
 
 /**

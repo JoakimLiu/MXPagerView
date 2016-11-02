@@ -134,6 +134,15 @@
     return page;
 }
 
+/**
+ setup first load index
+ 
+ @param index index description
+ */
+- (void)setupFirstLoadIndex:(NSInteger)index {
+    _index = index;
+}
+
 #pragma mark Properties
 
 - (MXContentView *)contentView {
